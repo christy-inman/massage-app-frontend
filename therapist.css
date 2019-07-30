@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+#therapist-card {
+    min-width: 400px;
+    max-width: 480px;
+    margin: 6%;
+    padding: 5% 4% 5% 5%;
+    border-radius: 25px;
+    background-color: rgba(205, 170, 238, 0.596);
+}
+#therapist-img {
+    max-width: 100%;
+    border-radius: 25px;
+}
+p {
+    max-width: 460px;
+    text-align: justify;
+}
+h1 {
+    margin: 6%;
+    border-radius: 25px;
+    display: inline;
+    padding: 2%;
+    background-color: rgba(205, 170, 238, 0.596);
+}
+body {
+    background-color: rgba(221, 202, 240, 0.795);
+    font-family: "Open Sans", sans-serif;
+}
