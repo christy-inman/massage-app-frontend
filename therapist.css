@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
-#therapist-card {
-    min-width: 400px;
-    max-width: 480px;
+.therapist-card {
+    width: 480px;
     margin: 6%;
-    padding: 5% 4% 5% 5%;
+    padding: 4% 3.7% 3.5% 5%;
     border-radius: 25px;
     background-color: rgba(205, 170, 238, 0.596);
+    box-shadow: -2px 2px 4px rgba(118, 83, 150, 0.596);
 }
 #therapist-img {
     max-width: 100%;
     border-radius: 25px;
+    box-shadow: -1px 1px 2px rgba(118, 83, 150, 0.596);
 }
 p {
     max-width: 460px;
@@ -19,11 +20,31 @@ p {
 h1 {
     margin: 6%;
     border-radius: 25px;
-    display: inline;
-    padding: 2%;
+    padding: 1.1rem;
     background-color: rgba(205, 170, 238, 0.596);
+    text-align: center;
+    min-width: 480px;
+    box-shadow: -2px 2px 4px rgba(118, 83, 150, 0.596);
+}
+h4 {
+    max-width: 460px;
 }
 body {
-    background-color: rgba(221, 202, 240, 0.795);
+    background-color: rgba(219, 204, 233, 0.9);
     font-family: "Open Sans", sans-serif;
+}
+#book-appointment-button {
+    background-color: rgba(118, 83, 150, 0.596);
+    box-shadow: -1px 1px 2px rgba(118, 83, 150, 0.596);
+    color: whitesmoke;
+    border: 1px rgba(72, 48, 94, 0.863);
+    border-radius: 5px;
+    font-size: .9rem;
+    margin: .5rem 0 .5rem 0;
+    padding: .6rem; 
+    cursor: pointer;
+}
+#flex-container {
+    display: flex;
+    justify-items: center;
 }
