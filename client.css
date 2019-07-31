@@ -32,7 +32,7 @@ h1 {
 }
 #flex-container {
     display: flex;
-    justify-items: center;
+    justify-content: center;
 }
 #profile-picture {
     max-width: 100%;
