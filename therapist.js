@@ -1,14 +1,5 @@
 const therapistUrl = "http://localhost:3000/therapists"
-
 const flexContainer = document.querySelector("#flex-container")
-// const therapistCard = document.querySelector(".therapist-card")
-// const img = document.querySelector(".therapist-img")
-// const name = document.querySelector(".therapist-name")
-// const email = document.querySelector(".therapist-email")
-// const bio = document.querySelector(".therapist-bio")
-// const bookAppointmentButton = document.querySelector(".book-appointment-button")
-
-// bookAppointmentButton.addEventListener("click", navigateToAppointmentPage)
 
 fetch(therapistUrl)
     .then(parseJson)
