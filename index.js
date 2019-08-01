@@ -14,9 +14,9 @@ function navigateToTherapistsPage() {
 function navigateToClientProfile() {
     location.href = "./client.html"
 }
-function navigateToLoginProfile() {
-    alert("This feature is currently under construction, please try again soon.")
+function navigateToSwitchClient() {
+    location.href = "./index.html"
 }
 function navigateToAppointmentsPage() {
-    alert("This feature is currently under construction, please try again soon.")
+    location.href = "./appointment.html"
 }

@@ -50,5 +50,5 @@ function displayTherapistInfo(therapist, i, response) {
     bookAppointmentButton.addEventListener("click", navigateToAppointmentPage)
 }
 function navigateToAppointmentPage() {
-    alert("This feature is currently under construction, please try again soon.")
+    location.href = "./appointment.html"
 }
