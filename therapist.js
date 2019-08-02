@@ -38,17 +38,6 @@ function createCardElements(therapist) {
         bookAppointmentButton.addEventListener("click", navigateToAppointmentPage)
         therapistCard.append(bookAppointmentButton)
 }
-function addTherapistInfo(response) {
-    response.forEach(displayTherapistInfo)
-}
-function displayTherapistInfo(therapist, i, response) {
-    console.log(therapist)
-    img.src = response[i].image
-    name.innerText = response[i].name
-    email.innerText = response[i].email
-    bio.textContent = response[i].bio
-    bookAppointmentButton.addEventListener("click", navigateToAppointmentPage)
-}
 function navigateToAppointmentPage() {
     location.href = "./appointment.html"
 }

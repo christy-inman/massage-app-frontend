@@ -7,12 +7,27 @@
     </head>
     <body>
         <h1>Appointments</h1>
-        <div class="appointment-card">
-            <h3 class="therapist-name">
-                Massage Therapist: Christy Inman</h4>
-            <h3>Current Appointments:</h3>
-            <h3>Create New Appointment:</h3>
-            <h3>Past Appointments:</h3>
-        </div>
+        <section id="new-aside" class="flex-container"> 
+            <aside id="new-appointment-card">
+                <h2 id="new-title">New Appointment</h2>
+                <form id="new-appointment-form">
+                    <label for="username">Username</label>
+                    <input required type="text" placeholder="Username" name="username" class="input-field">
+                    <label for="therapist">Massage Therapist</label>
+                    <select name="therapist" class="input-field">
+                        <option value="Christy Inman, LMT">Christy Inman, LMT</option>
+                        <option value="Kitty Paws, LMT">Kitty Paws, LMT</option>
+                    </select>
+                    <label for="date">Date</label>
+                    <input required type="date" name="date" class="input-field">
+                    <label for="time">Time</label>
+                    <input required type="time" name="time" class="input-field">
+                    <label for="notes">Additional Notes</label>
+                    <input required type="text" id="notes" placeholder="Length of session and other notes" name="notes" class="input-field">
+                    <input type="submit" value="Request New Appointment" id="submit-button">
+                </form>
+            </aside>
+        </section>
+        <script src="./appointment.js"></script>
     </body>
 </html>

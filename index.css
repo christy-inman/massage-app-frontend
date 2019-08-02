@@ -1,14 +1,14 @@
 body {
-    background-color: rgba(229, 218, 240, 0.9);
+    background-color: rgba(219, 204, 233, 0.9);
     font-family: "Open Sans", sans-serif;
 }
 ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 li {
     display: inline-block;
-}
+} 
 header {
     margin: 6%;
     padding: .6rem;
@@ -35,14 +35,19 @@ button {
 .text-input {
     background-color: rgb(229, 218, 240);
     border-radius: 5px;
-    padding: .3rem;
+    padding: 0 .3rem;
+    height: 30px;
+    margin: 4% 0;
+    border-width: 1px;
+    border-color: rgba(118, 83, 150, 0.596);
 }
 .submit-button {
     margin: 1.5rem 0 1.5rem 0;
     background-color: rgba(118, 83, 150, 0.596);
     box-shadow: -1px 1px 2px rgba(118, 83, 150, 0.596);
     color: whitesmoke;
-    border: 1px rgba(72, 48, 94, 0.863);
+    border-width: 1px;
+    border-color: rgba(118, 83, 150, 0.596);
     border-radius: 5px;
     padding: .4rem; 
     width: 136px;
