@@ -3,7 +3,7 @@ const therapistButton = document.querySelector("#therapist-button")
 const clientButton = document.querySelector("#client-button")
 // const loginButton = document.querySelector("#login-button")
 const submitButton = document.querySelector("#submit-button")
-const input = document.querySelector(".text-input")
+const input = document.querySelectorAll(".text-input")
 
 appointmentButton.addEventListener("click", navigateToAppointmentsPage)
 therapistButton.addEventListener("click", navigateToTherapistsPage)
